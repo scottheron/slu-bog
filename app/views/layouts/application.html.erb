@@ -1,6 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head>
+
+  <link rel="stylesheet" media="screen" href="http://netdna.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+
   <title>SluBog</title>
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
@@ -8,11 +12,9 @@
 </head>
 <body>
 
-<a href="/creatures">Home</a>
-<a href="/creatures/new">Add a Creature</a>
-<a href="/creatures/list">List of creatures</a>
-
 <%= yield %>
 
+  <script src="//netdna.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+  
 </body>
 </html>
