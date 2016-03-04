@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>SluBog</title>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+
+<a href="/creatures">Home</a>
+<a href="/creatures/new">Add a Creature</a>
+<a href="/creatures/list">List of creatures</a>
+
+<%= yield %>
+
+</body>
+</html>
